@@ -22,7 +22,7 @@ const GALLERY_ITEMS = [
   },
   {
     src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/construction-mapping-EFTnKe4ubP9pfYSNhzopiY.webp",
-    label: "Construction Mapping",
+    label: "Construction Progress",
     span: "lg:col-span-2",
   },
 ];

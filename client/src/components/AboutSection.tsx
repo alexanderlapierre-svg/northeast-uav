@@ -99,7 +99,7 @@ export default function AboutSection() {
               lineHeight: 1.75,
             }}
           >
-            Whether you need stunning real estate imagery, accurate site mapping,
+            Whether you need stunning real estate imagery, basic aerial site maps,
             or detailed infrastructure inspections, we deliver professional results
             on time and within budget. Every flight is planned, permitted, and
             executed with safety as the top priority.

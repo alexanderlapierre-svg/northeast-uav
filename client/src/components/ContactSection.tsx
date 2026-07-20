@@ -328,7 +328,7 @@ export default function ContactSection() {
                 >
                   <option value="">Select a service...</option>
                   <option value="real-estate">Real Estate Photography</option>
-                  <option value="mapping">Mapping & Surveying</option>
+                  <option value="mapping">Basic Aerial Site Maps</option>
                   <option value="inspection">Inspection Services</option>
                   <option value="videography">Aerial Videography</option>
                   <option value="construction">Construction Progress</option>

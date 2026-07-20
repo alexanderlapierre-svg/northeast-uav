@@ -129,7 +129,7 @@ export default function HeroSection() {
             transitionDelay: "0.55s",
           }}
         >
-          Professional drone photography, videography, mapping, and inspection
+          Professional drone photography, videography, and inspection
           services across the Northeast United States.
         </p>
 
