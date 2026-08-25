@@ -23,7 +23,7 @@ export default function HeroSection() {
       {/* Background image with Ken Burns */}
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/hero-aerial-ZbErCtySTz7PiSexA9W3FD.webp"
+          src="/hero.jpg"
           alt="Aerial view of northeastern landscape"
           className="w-full h-full object-cover animate-ken-burns"
           style={{ transformOrigin: "center center" }}
@@ -129,8 +129,8 @@ export default function HeroSection() {
             transitionDelay: "0.55s",
           }}
         >
-          Professional drone photography, videography, and inspection
-          services across the Northeast United States.
+          Roof documentation, construction progress, and commercial aerial
+          content for contractors and businesses across NH, ME, and MA.
         </p>
 
         {/* CTA Buttons */}

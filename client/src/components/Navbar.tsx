@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react";
 
 const NAV_LINKS = [
   { label: "Services", href: "#services" },
+  { label: "Rates", href: "/rates.html" },
   { label: "About", href: "#about" },
   { label: "Gallery", href: "#gallery" },
   { label: "Contact", href: "#contact" },
@@ -24,6 +25,7 @@ export default function Navbar() {
 
   const handleNavClick = (href: string) => {
     setMenuOpen(false);
+    if (!href.startsWith("#")) { window.location.href = href; return; }
     const el = document.querySelector(href);
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };

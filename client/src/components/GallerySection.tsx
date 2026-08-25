@@ -6,22 +6,22 @@ import { useEffect, useRef, useState } from "react";
 
 const GALLERY_ITEMS = [
   {
-    src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/hero-aerial-ZbErCtySTz7PiSexA9W3FD.webp",
-    label: "River Valley",
+    src: "/tile-1.jpg",
+    label: "Roof Documentation",
     span: "lg:col-span-2",
   },
   {
-    src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/real-estate-aerial-2wMBVPvhgDSAi82RHVxsJg.webp",
-    label: "Real Estate",
+    src: "/tile-3.jpg",
+    label: "Commercial",
     span: "",
   },
   {
-    src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/inspection-aerial-CpiPfB6TKgxpKTTEX442MK.webp",
-    label: "Infrastructure",
+    src: "/tile-5.jpg",
+    label: "Inspection",
     span: "",
   },
   {
-    src: "https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/construction-mapping-EFTnKe4ubP9pfYSNhzopiY.webp",
+    src: "/tile-2.jpg",
     label: "Construction Progress",
     span: "lg:col-span-2",
   },

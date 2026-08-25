@@ -8,42 +8,51 @@ import { Camera, Map, Building2, Video, Ruler, Eye } from "lucide-react";
 
 const SERVICES = [
   {
-    icon: Camera,
-    title: "Real Estate Photography",
-    description:
-      "Stunning aerial stills and video that make listings stand out. Showcase property boundaries, surroundings, and curb appeal from perspectives ground cameras can never achieve.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/real-estate-aerial-2wMBVPvhgDSAi82RHVxsJg.webp",
-    tag: "Most Popular",
-  },
-
-  {
-    icon: Eye,
-    title: "Inspection Services",
-    description:
-      "Safe, efficient drone inspections for roofs, bridges, towers, and infrastructure. Detailed imagery and reports without scaffolding or lift equipment.",
-    image: "https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/inspection-aerial-CpiPfB6TKgxpKTTEX442MK.webp",
-    tag: "Infrastructure",
-  },
-  {
-    icon: Video,
-    title: "Aerial Videography",
-    description:
-      "Cinematic 4K aerial video for events, marketing campaigns, tourism, and commercial productions. Smooth, professional footage that tells your story from above.",
-    tag: "Commercial",
-  },
-  {
     icon: Building2,
-    title: "Construction Progress",
+    title: "Roof Documentation & Damage Analysis",
     description:
-      "Regular aerial documentation of construction projects for stakeholders, project management, and dispute resolution. Timestamped, georeferenced imagery.",
-    tag: "Development",
+      "Our flagship service. High-resolution aerial documentation of residential and commercial roofs for contractors, roofers, and property managers — damage photos, flashing and penetration detail, measurements, and an organized report package. No ladders, no liability.",
+    image: "/tile-1.jpg",
+    tag: "Flagship",
   },
   {
     icon: Ruler,
-    title: "Land & Property",
+    title: "Construction Progress Documentation",
     description:
-      "Comprehensive aerial assessments for land parcels, agricultural operations, environmental monitoring, and property boundary documentation.",
-    tag: "Agriculture",
+      "Recurring aerial documentation of active job sites for builders and GCs. Timestamped, georeferenced imagery for stakeholders, project tracking, and dispute resolution.",
+    image: "/tile-2.jpg",
+    tag: "Recurring",
+  },
+  {
+    icon: Video,
+    title: "Commercial & Marketing Content",
+    description:
+      "Cinematic aerial photos and 4K video for local businesses, dealerships, venues, and trades — marketing content that shows your operation from a perspective the ground can't.",
+    image: "/tile-3.jpg",
+    tag: "Commercial",
+  },
+  {
+    icon: Map,
+    title: "Property & Site Documentation",
+    description:
+      "Aerial site documentation and basic site maps for land parcels, facilities, and development sites. Clear overhead reference imagery for planning, records, and marketing.",
+    image: "/tile-4.jpg",
+    tag: "Documentation",
+  },
+  {
+    icon: Eye,
+    title: "Roof & Infrastructure Inspection",
+    description:
+      "Safe, detailed visual inspections of roofs, towers, and infrastructure. High-res imagery and reporting without scaffolding or lift equipment.",
+    image: "/tile-5.jpg",
+    tag: "Inspection",
+  },
+  {
+    icon: Camera,
+    title: "Aerial Photography & Video",
+    description:
+      "Professional 4K aerial stills and video for events, tourism, and commercial productions across the Seacoast and beyond.",
+    tag: "Aerial",
   },
 ];
 
@@ -200,8 +209,9 @@ export default function ServicesSection() {
               lineHeight: 1.7,
             }}
           >
-            From real estate listings to infrastructure inspections, we deliver
-            professional aerial solutions tailored to your project needs.
+            From flagship roof documentation to construction progress and
+            commercial marketing content, we deliver professional aerial work
+            built for contractors and businesses across NH, ME, and MA.
           </p>
         </div>
 

@@ -31,8 +31,8 @@ export default function AboutSection() {
         {/* Left: Image */}
         <div className="relative overflow-hidden" style={{ minHeight: "400px" }}>
           <img
-            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663673801420/MRNmSSrokTDxP4PQYidLzH/acadia-landscape-EYxeUc5xVYtfBCDmbghmn5.webp"
-            alt="Acadia National Park landscape with mountains and coastline"
+            src="/tile-3.jpg"
+            alt="Aerial perspective — North East UAV"
             className="w-full h-full object-cover"
             style={{ minHeight: "400px" }}
           />
@@ -99,9 +99,9 @@ export default function AboutSection() {
               lineHeight: 1.75,
             }}
           >
-            Whether you need stunning real estate imagery, basic aerial site maps,
-            or detailed infrastructure inspections, we deliver professional results
-            on time and within budget. Every flight is planned, permitted, and
+            Whether you need roof documentation, construction progress imagery,
+            or commercial marketing content, we deliver professional results on
+            time and within budget. Every flight is planned, permitted, and
             executed with safety as the top priority.
           </p>
 
