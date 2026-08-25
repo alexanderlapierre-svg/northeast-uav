@@ -22,11 +22,12 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image with Ken Burns */}
       <div className="absolute inset-0 overflow-hidden">
+        <style>{`@keyframes neuavKen{from{transform:scale(1.16)}to{transform:scale(1)}}`}</style>
         <img
-          src="/hero.jpg"
-          alt="Aerial view of northeastern landscape"
-          className="w-full h-full object-cover animate-ken-burns"
-          style={{ transformOrigin: "center center" }}
+          src="https://images.pexels.com/photos/2876520/pexels-photo-2876520.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          alt="Aerial view of a river winding through a northeastern forested valley"
+          className="w-full h-full object-cover"
+          style={{ transformOrigin: "center center", animation: "neuavKen 15s ease-in-out infinite alternate" }}
         />
         {/* Gradient overlay — dark navy at top/bottom, lighter in center */}
         <div
