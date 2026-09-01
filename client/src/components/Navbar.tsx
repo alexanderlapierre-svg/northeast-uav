@@ -41,7 +41,7 @@ export default function Navbar() {
         boxShadow: scrolled ? "0 2px 20px oklch(0 0 0 / 0.3)" : "none",
       }}
     >
-      <div className="container flex items-center justify-between h-16">
+      <div className="container flex items-center justify-between h-20">
         {/* Logo */}
         <a
           href="#"
@@ -51,7 +51,7 @@ export default function Navbar() {
           <img
             src="/logo.png"
             alt="North East UAV Logo"
-            className="h-10 w-10 object-contain transition-transform duration-200 group-hover:scale-105"
+            className="h-16 w-16 object-contain transition-transform duration-200 group-hover:scale-105"
           />
           <div className="hidden sm:block">
             <div
