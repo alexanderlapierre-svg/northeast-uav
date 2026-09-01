@@ -41,7 +41,7 @@ export default function Navbar() {
         boxShadow: scrolled ? "0 2px 20px oklch(0 0 0 / 0.3)" : "none",
       }}
     >
-      <div className="container flex items-center justify-between h-32">
+      <div className="container flex items-center justify-between h-36">
         {/* Logo */}
         <a
           href="#"
@@ -51,22 +51,8 @@ export default function Navbar() {
           <img
             src="/logo.png"
             alt="North East UAV Logo"
-            className="h-28 w-28 object-contain transition-transform duration-200 group-hover:scale-105"
+            className="h-32 w-32 object-contain transition-transform duration-200 group-hover:scale-105"
           />
-          <div className="hidden sm:block">
-            <div
-              className="text-white font-bold leading-tight"
-              style={{ fontFamily: "'Oswald', sans-serif", fontSize: "1rem", letterSpacing: "0.08em" }}
-            >
-              NORTH EAST UAV
-            </div>
-            <div
-              className="leading-tight"
-              style={{ fontFamily: "'Lato', sans-serif", fontSize: "0.65rem", letterSpacing: "0.18em", color: "oklch(0.72 0.1 200)", textTransform: "uppercase" }}
-            >
-              Aerial Services
-            </div>
-          </div>
         </a>
 
         {/* Desktop Nav */}
